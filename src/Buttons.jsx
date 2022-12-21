@@ -9,6 +9,7 @@ export const Buttons = () => {
           marginBottom: 8,
           backgroundColor: "#3cbcc3",
         }}
+        onClick={githubRepoRedirect}
       >
         <svg
           role="img"
@@ -31,6 +32,7 @@ export const Buttons = () => {
           marginBottom: 8,
           backgroundColor: "#3cbcc3",
         }}
+        download={() => (windows.href.location = ".//Guhan's Resume")}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -70,4 +72,12 @@ export const Buttons = () => {
       </button>
     </div>
   );
+};
+
+const githubRepoRedirect = () => {
+  window.location.href = "https://github.com/Gukkey";
+};
+
+const downloadResume = () => {
+  <a download={"./Guhan's Resume.pdf"}></a>;
 };

@@ -1,12 +1,29 @@
-.buttons{
-    display: flex;
-    place-items: center;
-    flex-direction: column;
+.buttons {
+  display: flex;
+  place-items: center;
+  flex-direction: column;
 }
 
-.buttons button{
-    display: flex;
-    place-items: center;
-    margin-bottom: 12px;
-    background-color: #3cbcc3;
+.buttons button {
+  display: flex;
+  place-items: center;
+  margin-bottom: 12px;
+  background-color: #3cbcc3;
+  /* box-shadow: 4px 4px 2px 1px rgba(0, 0, 255, .2); */
+}
+
+@media (orientation: landscape) and (min-width: 800px) {
+  .buttons button:hover {
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 255, 0.4);
+  }
+}
+
+@media (orientation: portrait) {
+  .buttons githubRepo {
+    margin-top: 12px;
+  }
+  .buttons button {
+    box-shadow: 8px 8px 2px 1px rgba(0, 0, 255, 0.4);
+    margin-top: 8px;
+  }
 }

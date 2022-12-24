@@ -5,8 +5,9 @@ export const Buttons = () => {
     <div className="buttons">
       <button
         name="githubRepo"
+        className="githubRepo"
         style={{
-          marginTop: 16,
+          marginTop: 20,
         }}
         onClick={githubRepoRedirect}
       >

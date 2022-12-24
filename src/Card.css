@@ -28,11 +28,23 @@ img {
   color: white;
 }
 
-.name,
+.name {
+  margin: 0px;
+  margin-top: 10px;
+  color: #f64c72;
+}
+
 .title {
   margin: 0px;
-  margin-top: 10%;
+  margin-top: 10px;
   color: #f64c72;
+}
+
+p {
+  font-family: Poppins;
+  font-size: 2.5vh;
+  text-align: left;
+  margin-top: 10px;
 }
 
 @media (orientation: portrait) {

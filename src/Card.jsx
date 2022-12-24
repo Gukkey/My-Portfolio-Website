@@ -11,9 +11,12 @@ export const Card = () => {
           <h3 className="title">MERN Stack Developer</h3>
         </div>
         <div>
-          <p style={{}}>
-            Hii! I am a begineer MERN stack developer whose hobbies are coding
-            and playing video games. Nice to meet yaa!!!
+          <p>
+            Hii! I am a begineer MERN stack developer who is interested in
+            taking both internships and full time employment offers too. My
+            primary (and favorite) language is Java, I am currently learning
+            JavaScript and MERN stack. I am open for taking easy and small
+            comissions too.
           </p>
         </div>
       </div>

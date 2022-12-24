@@ -4,10 +4,9 @@ export const Buttons = () => {
   return (
     <div className="buttons">
       <button
-        name="githubRepo"
         className="githubRepo"
         style={{
-          marginTop: 20,
+          marginTop: 40,
         }}
         onClick={githubRepoRedirect}
       >
@@ -25,7 +24,7 @@ export const Buttons = () => {
         <span style={{ marginLeft: 8 }}>Git Repository</span>
       </button>
       <a href="Guhan's Resume.pdf" download>
-        <button name="download" href="/Guhan's Resume.pdf" download>
+        <button classsName="download" href="/Guhan's Resume.pdf" download>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -33,7 +32,7 @@ export const Buttons = () => {
             stroke-width="1.5"
             stroke="currentColor"
             class="w-6 h-6"
-            style={{ height: 24, width: 24 }}
+            style={{ height: 24, width: 24, color: "black" }}
           >
             <path
               stroke-linecap="round"
@@ -44,7 +43,7 @@ export const Buttons = () => {
           <span style={{ marginLeft: 8 }}>Download my resume!</span>
         </button>
       </a>
-      <button name="donationJar" onClick={donationJarRedirect}>
+      <button className="donationJar" onClick={donationJarRedirect}>
         <svg
           role="img"
           viewBox="0 0 24 24"

@@ -72,7 +72,7 @@ export const Buttons = () => {
 };
 
 const githubRepoRedirect = () => {
-  window.location.href = "https://github.com/Gukkey";
+  window.location.href = "https://github.com/Gukkey/My-Portfolio-Website";
 };
 
 const linkedinRedirect = () => {

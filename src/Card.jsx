@@ -14,7 +14,7 @@ export const Card = () => {
           <p>
             Hii! I am a begineer MERN stack developer who is interested in
             taking both internships and full time employment offers too. My
-            primary (and favorite) language is Java, I am currently learning
+            primary (and favorite) language is Java, and I am currently learning
             JavaScript and MERN stack. I am open for taking easy and small
             comissions too.
           </p>

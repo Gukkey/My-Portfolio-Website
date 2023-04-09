@@ -10,6 +10,7 @@
   place-items: center;
   margin-bottom: 12px;
   background-color: #3cbcc3;
+  transition: all 120ms ease;
   /* box-shadow: 4px 4px 2px 1px rgba(0, 0, 255, .2); */
 }
 

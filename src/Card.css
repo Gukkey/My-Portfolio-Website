@@ -4,7 +4,6 @@
   flex-flow: wrap;
   gap: 0;
   border-radius: 30px;
-  height: 308.5px;
 }
 
 img {
@@ -79,7 +78,7 @@ p {
   .content:hover ~ img {
     box-shadow: 4px 4px 2px 1px rgba(0, 0, 255, 0.4);
   } */
-  .main:hover {
-    box-shadow: 8px 18px 2px 1px rgba(0, 0, 225, 0.4);
-  }
+  /* .main:hover { */
+  /*   box-shadow: 8px 18px 2px 1px rgba(0, 0, 225, 0.4); */
+  /* } */
 }

@@ -35,8 +35,8 @@ export const Buttons = () => {
         </svg>
         <span style={{ marginLeft: 8 }}>Linkedin</span>
       </button>
-      <a href="Guhan's Resume.pdf" download>
-        <button classsName="download" href="/Guhan's Resume.pdf" download>
+      <a href="resume.pdf" download>
+        <button classsName="download" href="/resume.pdf" download>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

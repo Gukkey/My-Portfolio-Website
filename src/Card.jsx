@@ -3,7 +3,7 @@ export const Card = () => {
   return (
     <div className="main">
       <div className="image">
-        <img src="/image.jpg"></img>
+        <img src="/notmyselfie.png"></img>
       </div>
       <div className="content">
         <div>
